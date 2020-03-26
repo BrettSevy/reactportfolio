@@ -1,25 +1,40 @@
-import React from 'react';
-// import logo from './logo.svg';
-import './App.css';
-import Portfolio from './components/portfoio/portfolio';
-import Home from "./components/home/home";
-import AboutMe from "./components/aboutme/aboutme";
-import Contact from "./components/contact/contact";
-// import { render } from '@testing-library/react';
-// import Bannanas from "./components/tabs";
-// import Foot from "./components/footer";
+import React from "react";
+import { Header, Navigation, Layout, Drawer, Content } from "react-mdl";
+import Main from "./components/main";
+import { Link } from "react-router-dom";
+import "./App.css";
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      {/* <Bannanas></Bannanas> */}
-      <Home></Home>
-      <AboutMe></AboutMe>
-      <Portfolio></Portfolio>
-      <Contact></Contact>
-      {/* <Foot></Foot> */}
+<div className ="main" style={{height: 'auto', position: 'auto'}}>
+    <Layout style={{background: 'url(http://wallpaperping.com/wp-content/uploads/2018/12/pexels-photo-691668.jpeg) center/cover'}}>
+       <Header className="sign" transparent title="">
+          <Navigation>
+            <Link to="/">Home</Link>
+            <Link to="/aboutme">About Me</Link>
+            <Link to="/portfolio">Portfolio</Link>
+            <Link to="/contact">Contact</Link>
+          </Navigation>
+        </Header>
+        <Drawer title="Brett Sevy">
+          <Navigation>
+            <Link to="/">Home</Link>
+            <Link to="/aboutme">About Me</Link>
+            <Link to="/portfolio">Portfolio</Link>
+            <Link to="/contact">Contact</Link>
+          </Navigation>
+        </Drawer>
+        <Content>
+          <div className="page-content" />
+          <Main />
+        </Content>
+      </Layout>
     </div>
-  )
-};
+
+  );
+}
 
 export default App;
