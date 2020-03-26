@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/reactportfolio/static/css/main.a47237d3.chunk.css",
-    "main.js": "/reactportfolio/static/js/main.1e7fe0df.chunk.js",
-    "main.js.map": "/reactportfolio/static/js/main.1e7fe0df.chunk.js.map",
+    "main.css": "/reactportfolio/static/css/main.5e93991a.chunk.css",
+    "main.js": "/reactportfolio/static/js/main.79c5ffd7.chunk.js",
+    "main.js.map": "/reactportfolio/static/js/main.79c5ffd7.chunk.js.map",
     "runtime-main.js": "/reactportfolio/static/js/runtime-main.53cc0431.js",
     "runtime-main.js.map": "/reactportfolio/static/js/runtime-main.53cc0431.js.map",
-    "static/js/2.c61415a6.chunk.js": "/reactportfolio/static/js/2.c61415a6.chunk.js",
-    "static/js/2.c61415a6.chunk.js.map": "/reactportfolio/static/js/2.c61415a6.chunk.js.map",
+    "static/css/2.e4346227.chunk.css": "/reactportfolio/static/css/2.e4346227.chunk.css",
+    "static/js/2.86bd35d7.chunk.js": "/reactportfolio/static/js/2.86bd35d7.chunk.js",
+    "static/js/2.86bd35d7.chunk.js.map": "/reactportfolio/static/js/2.86bd35d7.chunk.js.map",
     "index.html": "/reactportfolio/index.html",
-    "precache-manifest.6a6c06a11cf61b548ef285c963e6344f.js": "/reactportfolio/precache-manifest.6a6c06a11cf61b548ef285c963e6344f.js",
+    "precache-manifest.6317b8cb8fac7dd003b5295352326765.js": "/reactportfolio/precache-manifest.6317b8cb8fac7dd003b5295352326765.js",
     "service-worker.js": "/reactportfolio/service-worker.js",
-    "static/css/main.a47237d3.chunk.css.map": "/reactportfolio/static/css/main.a47237d3.chunk.css.map",
-    "static/js/2.c61415a6.chunk.js.LICENSE.txt": "/reactportfolio/static/js/2.c61415a6.chunk.js.LICENSE.txt",
+    "static/css/2.e4346227.chunk.css.map": "/reactportfolio/static/css/2.e4346227.chunk.css.map",
+    "static/css/main.5e93991a.chunk.css.map": "/reactportfolio/static/css/main.5e93991a.chunk.css.map",
+    "static/js/2.86bd35d7.chunk.js.LICENSE.txt": "/reactportfolio/static/js/2.86bd35d7.chunk.js.LICENSE.txt",
     "static/media/burgers.png": "/reactportfolio/static/media/burgers.9b1d9f18.png",
     "static/media/coin.jpg": "/reactportfolio/static/media/coin.086246a5.jpg",
     "static/media/fitness.png": "/reactportfolio/static/media/fitness.8623edab.png",
@@ -22,8 +24,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.53cc0431.js",
-    "static/js/2.c61415a6.chunk.js",
-    "static/css/main.a47237d3.chunk.css",
-    "static/js/main.1e7fe0df.chunk.js"
+    "static/css/2.e4346227.chunk.css",
+    "static/js/2.86bd35d7.chunk.js",
+    "static/css/main.5e93991a.chunk.css",
+    "static/js/main.79c5ffd7.chunk.js"
   ]
 }
