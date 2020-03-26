@@ -3,6 +3,7 @@ import { Header, Navigation, Layout, Drawer, Content } from "react-mdl";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
 import "./App.css";
+import Home from "../src/components/home/home"
 
 
 
@@ -32,6 +33,7 @@ function App() {
           <Main />
         </Content>
       </Layout>
+      {/* <Home></Home> */}
     </div>
 
   );
