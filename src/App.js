@@ -3,7 +3,7 @@ import { Header, Navigation, Layout, Drawer, Content } from "react-mdl";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
 import "./App.css";
-import Home from "../src/components/home/home"
+// import Home from "../src/components/home/home"
 
 
 
@@ -14,7 +14,7 @@ function App() {
     <Layout style={{background: 'url(http://wallpaperping.com/wp-content/uploads/2018/12/pexels-photo-691668.jpeg) center/cover'}}>
        <Header className="sign" transparent title="">
           <Navigation>
-            <Link to="/">Home</Link>
+            <Link to="/home">Home</Link>
             <Link to="/aboutme">About Me</Link>
             <Link to="/portfolio">Portfolio</Link>
             <Link to="/contact">Contact</Link>
@@ -22,7 +22,7 @@ function App() {
         </Header>
         <Drawer title="Brett Sevy">
           <Navigation>
-            <Link to="/">Home</Link>
+            <Link to="/home">Home</Link>
             <Link to="/aboutme">About Me</Link>
             <Link to="/portfolio">Portfolio</Link>
             <Link to="/contact">Contact</Link>
@@ -30,8 +30,8 @@ function App() {
         </Drawer>
         <Content>
           <div className="page-content" />
-          <Main />
         </Content>
+          <Main />
       </Layout>
       {/* <Home></Home> */}
     </div>

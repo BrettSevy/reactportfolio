@@ -5,7 +5,7 @@ import { Grid, Cell } from "react-mdl";
 class Home extends Component {
     render() {
         return (
-            <div style={{ width: "100%", margin: "auto" }}>
+            // <div style={{ width: "100%", margin: "auto" }}>
                 <Grid className="homeGrid">
                     <Cell col={12}>
                         <div className="bannerText sign">
@@ -32,7 +32,7 @@ class Home extends Component {
                     </Cell>
 
                 </Grid>
-            </div>
+            // </div>
         )
     }
 };

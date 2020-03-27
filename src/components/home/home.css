@@ -1,6 +1,6 @@
 .homeGrid{
   text-align: center;
-  position: fixed;
+  position: relative; top: auto;
   top: 25%;
   left: 0;
   width: 100%;

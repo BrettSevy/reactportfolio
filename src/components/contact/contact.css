@@ -33,7 +33,7 @@ a[href^="mailto:"]{
 }
 
 .contactGrid h4{
-font-weight: bold;
+/* font-weight: bold; */
 font-family: 'Rock Salt', cursive;
 
 
