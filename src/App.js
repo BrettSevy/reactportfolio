@@ -3,6 +3,7 @@ import { Header, Navigation, Layout, Drawer, Content } from "react-mdl";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
 import "./App.css";
+import Home from "./components/home/home";
 // import Home from "../src/components/home/home"
 
 
@@ -28,9 +29,9 @@ function App() {
             <Link to="/contact">Contact</Link>
           </Navigation>
         </Drawer>
-        <Content>
+        
           <div className="page-content" />
-        </Content>
+        
           <Main />
       </Layout>
       {/* <Home></Home> */}
