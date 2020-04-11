@@ -3,7 +3,7 @@ import { Header, Navigation, Layout, Drawer, Content } from "react-mdl";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
 import "./App.css";
-import Home from "./components/home/home";
+import Navbar from "./components/navbar";
 // import Home from "../src/components/home/home"
 
 
@@ -11,6 +11,9 @@ import Home from "./components/home/home";
 
 function App() {
   return (
+    <div>
+      {/* <Navbar></Navbar> */}
+
 <div className ="main" style={{height: 'auto', position: 'auto'}}>
     <Layout style={{background: 'url(http://wallpaperping.com/wp-content/uploads/2018/12/pexels-photo-691668.jpeg) center/cover'}}>
        <Header className="sign" transparent title="">
@@ -34,7 +37,7 @@ function App() {
         
           <Main />
       </Layout>
-      {/* <Home></Home> */}
+    </div>
     </div>
 
   );

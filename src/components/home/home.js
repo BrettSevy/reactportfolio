@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import "./home.css"
 import { Grid, Cell } from "react-mdl";
+import Navbar from "../navbar"
 
 class Home extends Component {
     render() {
         return (
-            // <div style={{ width: "100%", margin: "auto" }}>
+            <div>
+                {/* <Navbar></Navbar> */}
+            <div style={{ width: "100%", margin: "auto" }}>
                 <Grid className="homeGrid">
                     <Cell col={12}>
                         <div className="bannerText sign">
@@ -32,7 +35,8 @@ class Home extends Component {
                     </Cell>
 
                 </Grid>
-            // </div>
+            </div>
+            </div>
         )
     }
 };
